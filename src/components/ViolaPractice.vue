@@ -13,6 +13,7 @@
           <div class="staff-line"></div>
           <div class="staff-line"></div>
           <div class="staff-line"></div>
+          <div class="staff-start"></div>
           <div
             class="note"
             :class="this.randomNote.name + this.randomNote.octave"
@@ -24,43 +25,43 @@
     <div>
       <button
         @click="checkResult('c')"
-        class="button-primary delimiter-vertical"
+        class="button-primary delimiter-vertical delimiter-horizontal"
       >
         До (C)
       </button>
       <button
         @click="checkResult('d')"
-        class="button-primary delimiter-vertical"
+        class="button-primary delimiter-vertical delimiter-horizontal"
       >
         Ре (D)
       </button>
       <button
         @click="checkResult('e')"
-        class="button-primary delimiter-vertical"
+        class="button-primary delimiter-vertical delimiter-horizontal"
       >
         Ми (E)
       </button>
       <button
         @click="checkResult('f')"
-        class="button-primary delimiter-vertical"
+        class="button-primary delimiter-vertical delimiter-horizontal"
       >
         Фа (F)
       </button>
       <button
         @click="checkResult('g')"
-        class="button-primary delimiter-vertical"
+        class="button-primary delimiter-vertical delimiter-horizontal"
       >
         Соль (G)
       </button>
       <button
         @click="checkResult('a')"
-        class="button-primary delimiter-vertical"
+        class="button-primary delimiter-vertical delimiter-horizontal"
       >
         Ля (A)
       </button>
       <button
         @click="checkResult('b')"
-        class="button-primary delimiter-vertical"
+        class="button-primary delimiter-vertical delimiter-horizontal"
       >
         Си (B)
       </button>
