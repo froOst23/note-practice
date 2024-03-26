@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunknote_practice"]=self["webpackChunknote_practice"]||[]).push([[594],{223:function(n,t,e){e.r(t),e.d(t,{default:function(){return k}});var u=e(6768);const c={class:"about"},r=(0,u.Lk)("h1",null,"Важно!",-1),a=(0,u.Lk)("h4",null," Это инструмент находится на стадии разработки. Следите за будущими релизами. ",-1),s=[r,a];function l(n,t){return(0,u.uX)(),(0,u.CE)("div",c,s)}var o=e(1241);const i={},f=(0,o.A)(i,[["render",l]]);var k=f}}]);
+//# sourceMappingURL=about.20c6d115.js.map
