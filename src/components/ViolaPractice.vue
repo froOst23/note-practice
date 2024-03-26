@@ -26,43 +26,43 @@
         @click="checkResult('c')"
         class="button-primary delimiter-vertical"
       >
-        C
+        До (C)
       </button>
       <button
         @click="checkResult('d')"
         class="button-primary delimiter-vertical"
       >
-        D
+        Ре (D)
       </button>
       <button
         @click="checkResult('e')"
         class="button-primary delimiter-vertical"
       >
-        E
+        Ми (E)
       </button>
       <button
         @click="checkResult('f')"
         class="button-primary delimiter-vertical"
       >
-        F
+        Фа (F)
       </button>
       <button
         @click="checkResult('g')"
         class="button-primary delimiter-vertical"
       >
-        G
+        Соль (G)
       </button>
       <button
         @click="checkResult('a')"
         class="button-primary delimiter-vertical"
       >
-        A
+        Ля (A)
       </button>
       <button
         @click="checkResult('b')"
         class="button-primary delimiter-vertical"
       >
-        B
+        Си (B)
       </button>
     </div>
   </div>
@@ -145,7 +145,6 @@ export default {
         this.getRandomNote();
       } else {
         this.mistakes = this.mistakes + 1;
-        this.getRandomNote();
       }
     },
     restartPractice() {
