@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <h1>Альт</h1>
-    <h2>{{ this.randomNote.name + this.randomNote.octave }}</h2>
+    <!--    <h2>{{ this.randomNote.name + this.randomNote.octave }}</h2>-->
     <p>Счет: {{ this.score }}</p>
     <p>Ошибки: {{ this.mistakes }}</p>
 
@@ -145,6 +145,7 @@ export default {
         this.getRandomNote();
       } else {
         this.mistakes = this.mistakes + 1;
+        this.getRandomNote();
       }
     },
     restartPractice() {
