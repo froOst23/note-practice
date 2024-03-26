@@ -1,0 +1,15 @@
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.delimiter-vertical {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.delimiter-horizontal {
+    margin-top: 20px;
+    margin-button: 20px;
+}

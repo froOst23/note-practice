@@ -1,5 +1,9 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h1>Важно!</h1>
+    <h4>
+      Это инструмент находится на стадии разработки. Следите за будующими
+      релизами.
+    </h4>
   </div>
 </template>
